@@ -1,0 +1,125 @@
+body {
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  height: 300px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.app {
+}
+
+.app-header {
+  background-color: #ffffff;
+  max-height: 100vh;
+
+  font-size: calc(10px + 2vmin);
+  color: white;
+
+  .img-peg {
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+  }
+  .img-cub {
+    position: absolute;
+    width: 35%;
+    z-index: 4;
+    top: 64px;
+    left: 500px;
+  }
+  .img-kom-bot {
+    position: absolute;
+    width: 100%;
+    z-index: 6;
+    top: 281px;
+  }
+  .img-kom-up {
+    position: absolute;
+    width: 100%;
+    z-index: 8;
+    top: 90px;
+  }
+  .timleft {
+    position: absolute;
+    width: 79%;
+    z-index: 10;
+    top: 0px;
+  }
+  .tim-right {
+    position: absolute;
+
+    z-index: 10;
+    top: 0px;
+  }
+  .one-top {
+    position: absolute;
+    width: 34%;
+
+    z-index: 13;
+    top: 130px;
+    left: 470px;
+  }
+  .one2-top {
+    position: absolute;
+    width: 34%;
+
+    z-index: 14;
+    top: 119px;
+    left: 470px;
+  }
+  .one3-top {
+    position: absolute;
+    width: 27%;
+
+    z-index: 15;
+    top: 132px;
+    left: 500px;
+  }
+  .one4-top {
+    position: absolute;
+    width: 100%;
+    z-index: 18;
+    top: 0px;
+    left: 0px;
+  }
+  .fon2-top {
+    position: absolute;
+    width: 100%;
+    z-index: 20;
+    top: 0px;
+    left: 0px;
+  }
+  .finish-fon {
+    position: absolute;
+    width: 100%;
+    z-index: 22;
+    top: 0px;
+    left: 0px;
+  }
+  .botonimg {
+    position: absolute;
+    width: 5%;
+    z-index: 23;
+    top: 88px;
+    left: 1113px;
+  }
+  .left-fon {
+    position: absolute;
+    width: 100%;
+    z-index: 24;
+    top: 0px;
+    left: 0px;
+  }
+  .right-fon {
+    position: absolute;
+    width: 100%;
+    z-index: 24;
+    top: 0px;
+    left: 0px;
+  }
+}
